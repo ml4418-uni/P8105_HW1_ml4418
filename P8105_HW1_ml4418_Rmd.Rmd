@@ -1,8 +1,8 @@
 ---
-title: "P8105_HW1_ml4418_Rmd"
+title: "P8105_HW1_ml4418"
 author: "Mengyuan Li"
 date: "9/15/2019"
-output: pdf_document
+output: github_document
 ---
 ```{R, include = FALSE}
 library(tidyverse)
