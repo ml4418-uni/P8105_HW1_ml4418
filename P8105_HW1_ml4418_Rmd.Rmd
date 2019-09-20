@@ -50,16 +50,11 @@ data2_df = tibble(
   number = as.numeric(logic),
   factor = as.factor(logic)
 )
-nrow(data2_df) 
-ncol(data2_df)
-mean(pull(data2_df, x ))
-median(pull(data2_df,x ))
-sd(pull(data2_df, x ))
-count = sum(pull(data2_df, logic), na.rm = TRUE)
-proportion = count/500
 ```
+Answer: The size of dataset is (`r nrow(data2_df)`,
+`r ncol(data2_df)`); The mean of x is `r mean(pull(data2_df, x ))`; The median of x is `r median(pull(data2_df,x ))` ; The standard deviation of x is `r sd(pull(data2_df, x ))`; The proportion of cases for which x+y>1 is `r sum(pull(data2_df, logic), na.rm = TRUE)/500`.
 
-Answer: The size of dataset is (500,5); The mean of x is 0.009588525; The median of x is 0.001172065; The standard deviation of x is 1.008548; The proportion of cases for which x+y>1 is 0.23.
+
 
 
 # problem 2- part 2
